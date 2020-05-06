@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Terre
   - Interieur
+  - corbeaux
   layers:
   - Default
   - TransparentFX

@@ -20,7 +20,7 @@ public class crouch : MonoBehaviour
         }
         else
         {
-            characterCollider.height = 1.8f;
+            characterCollider.height = 1.7f;
         }
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bruit_pas : MonoBehaviour
 {
-    public AudioClip Terre, Interieur, Os, curSound;
+    public AudioClip Terre, Interieur, Os, corbeaux ,curSound;
 
     public float volMin;
     public float VolMax;
@@ -38,6 +38,9 @@ public class Bruit_pas : MonoBehaviour
             case "Os":
                 curSound = Os;
                 break;
+            case "corbeaux":
+                curSound = corbeaux;
+                break;
         }
 
         Debug.Log("detectepas");
@@ -46,6 +49,8 @@ public class Bruit_pas : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+
+       
         curSound = null;
     }
 
