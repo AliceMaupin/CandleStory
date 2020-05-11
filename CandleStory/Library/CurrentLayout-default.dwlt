@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 146
+  controlID: 30
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 66
+  controlID: 31
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 67
+  controlID: 32
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,20 +337,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Crypte/Environnement/livre
+    - Assets/cimetiere
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Crypte/Environnement/livre
+  - Assets/cimetiere
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "D:\\Projet-Fin-Ann\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9\\CandleStory"
+  m_LastProjectPath: D:\Unity\CandleStory\CandleStory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 67}
-    m_SelectedIDs: 262e0000
-    m_LastClickedID: 11814
-    m_ExpandedIDs: 00000000242d0000e03000004a330000cc3300007235000000ca9a3b
+    scrollPos: {x: 0, y: 19}
+    m_SelectedIDs: fc500000
+    m_LastClickedID: 20732
+    m_ExpandedIDs: 00000000284f000000500000b2500000d0500000fc50000012520000e252000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -378,7 +378,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000242d0000e0300000cc33000072350000
+    m_ExpandedIDs: 00000000284f0000d050000012520000e2520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,24 +500,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 9060ffffc264ffffe6ddffff52dfffff76fbffff923b0000
+      scrollPos: {x: 0, y: 1}
+      m_SelectedIDs: 18610000
+      m_LastClickedID: 24856
+      m_ExpandedIDs: 6482ffff9a560000d25600008c660000846a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Mur-SalleC (2)
-        m_OriginalName: Mur-SalleC (2)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -5582
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -563,9 +563,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -397.53772, y: 13.54483, z: -105.63285}
+    m_Target: {x: -408.0023, y: 4.6159663, z: -150.75327}
     speed: 2
-    m_Value: {x: -397.53772, y: 13.54483, z: -105.63285}
+    m_Value: {x: -408.0023, y: 4.6159663, z: -150.75327}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -594,13 +594,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.02702164, y: 0.9379761, z: -0.3389547, w: 0.073071286}
+    m_Target: {x: 0.18223178, y: 0.21825333, z: -0.040974353, w: 0.9582531}
     speed: 2
-    m_Value: {x: 0.025486406, y: 0.9379395, z: -0.33894426, w: 0.06882355}
+    m_Value: {x: 0.18209994, y: 0.21960583, z: -0.041231763, w: 0.9575556}
   m_Size:
-    m_Target: 30.771042
+    m_Target: 20.536404
     speed: 2
-    m_Value: 29.445972
+    m_Value: 19.652061
   m_Ortho:
     m_Target: 0
     speed: 2
