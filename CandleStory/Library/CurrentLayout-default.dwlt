@@ -47,7 +47,11 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
+<<<<<<< HEAD
   controlID: 142
+=======
+  controlID: 30
+>>>>>>> 3e458343c857f684975d25f673fc47f498245e8b
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +222,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
+<<<<<<< HEAD
   controlID: 65
+=======
+  controlID: 31
+>>>>>>> 3e458343c857f684975d25f673fc47f498245e8b
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +251,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
+<<<<<<< HEAD
   controlID: 66
+=======
+  controlID: 32
+>>>>>>> 3e458343c857f684975d25f673fc47f498245e8b
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,20 +349,27 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Crypte/Environnement/livre
+    - Assets/cimetiere
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Crypte/Environnement/livre
+  - Assets/cimetiere
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "D:\\Projet-Fin-Ann\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9\\CandleStory"
+  m_LastProjectPath: D:\Unity\CandleStory\CandleStory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 67}
     m_SelectedIDs: 282e0000
     m_LastClickedID: 11816
     m_ExpandedIDs: 00000000262d0000e23000004e330000183400005c36000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 19}
+    m_SelectedIDs: fc500000
+    m_LastClickedID: 20732
+    m_ExpandedIDs: 00000000284f000000500000b2500000d0500000fc50000012520000e252000000ca9a3b
+>>>>>>> 3e458343c857f684975d25f673fc47f498245e8b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -378,7 +397,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000262d0000e2300000183400005c360000
+=======
+    m_ExpandedIDs: 00000000284f0000d050000012520000e2520000
+>>>>>>> 3e458343c857f684975d25f673fc47f498245e8b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,10 +523,17 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 76fbffff
+=======
+      scrollPos: {x: 0, y: 1}
+      m_SelectedIDs: 18610000
+      m_LastClickedID: 24856
+      m_ExpandedIDs: 6482ffff9a560000d25600008c660000846a0000
+>>>>>>> 3e458343c857f684975d25f673fc47f498245e8b
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -563,9 +593,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -408.14896, y: 8.082811, z: -147.48708}
     speed: 2
     m_Value: {x: -408.14896, y: 8.082811, z: -147.48708}
+=======
+    m_Target: {x: -408.0023, y: 4.6159663, z: -150.75327}
+    speed: 2
+    m_Value: {x: -408.0023, y: 4.6159663, z: -150.75327}
+>>>>>>> 3e458343c857f684975d25f673fc47f498245e8b
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -594,6 +630,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.14102633, y: -0.30329388, z: 0.04593841, w: 0.94168746}
     speed: 2
     m_Value: {x: 0.14090365, y: -0.30459017, z: 0.046132345, w: 0.94087344}
@@ -601,6 +638,15 @@ MonoBehaviour:
     m_Target: 20.667908
     speed: 2
     m_Value: 19.777903
+=======
+    m_Target: {x: 0.18223178, y: 0.21825333, z: -0.040974353, w: 0.9582531}
+    speed: 2
+    m_Value: {x: 0.18209994, y: 0.21960583, z: -0.041231763, w: 0.9575556}
+  m_Size:
+    m_Target: 20.536404
+    speed: 2
+    m_Value: 19.652061
+>>>>>>> 3e458343c857f684975d25f673fc47f498245e8b
   m_Ortho:
     m_Target: 0
     speed: 2
