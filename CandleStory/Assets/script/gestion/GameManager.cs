@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
 
     public static GameManager s_Singleton;
 
+    public static bool GameIsPaused = false;
+
+    public GameObject pauseMenuUI;
+
     private void Awake()
     {
         if (s_Singleton != null)
@@ -24,25 +28,36 @@ public class GameManager : MonoBehaviour
             s_Singleton = this;
         }
     }
-    private void Start()
-    {
 
-    }
 
     // Update is called once per frame
     void Update()
     {
-        /*Debug.Log(CheckpointPosition);
-        if(hasKeyA == true)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            keyAUI.SetActive(true);
+            if (GameIsPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
         }
-        
-        if(hasKeyA == false)
-        {
-            keyAUI.SetActive(false);
-        }*/
         DontDestroyOnLoad(gameObject);
     }
 
+    void Resume()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameIsPaused = false;
+    }
+
+    void Pause()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        GameIsPaused = true;
+    }
 }
