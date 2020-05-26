@@ -73,6 +73,8 @@
     <Compile Include="Assets\script\gestion\NextScene.cs" />
     <Compile Include="Assets\script\gestion\PauseButton.cs" />
     <Compile Include="Assets\script\gestion\SplashScreen.cs" />
+    <Compile Include="Assets\script\gestion\Transitions\cimetierecrypte.cs" />
+    <Compile Include="Assets\script\gestion\Transitions\cryptecatacombes.cs" />
     <Compile Include="Assets\script\gestion\TriggerSonCorbeaux.cs" />
     <Compile Include="Assets\script\interraction\ActivateTrigger.cs" />
     <Compile Include="Assets\script\interraction\Interact.cs" />
