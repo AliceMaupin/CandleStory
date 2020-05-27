@@ -77,6 +77,7 @@
     <Compile Include="Assets\script\gestion\Transitions\cryptecatacombes.cs" />
     <Compile Include="Assets\script\gestion\TriggerSonCorbeaux.cs" />
     <Compile Include="Assets\script\interraction\ActivateTrigger.cs" />
+    <Compile Include="Assets\script\interraction\Grille.cs" />
     <Compile Include="Assets\script\interraction\Interact.cs" />
     <Compile Include="Assets\script\interraction\Lever.cs" />
     <Compile Include="Assets\script\interraction\PickableObject.cs" />
