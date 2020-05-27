@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
+    <Compile Include="Assets\script\ennemie\Chase.cs" />
     <Compile Include="Assets\script\ennemie\Enemy.cs" />
     <Compile Include="Assets\script\gestion\ButtonManagement.cs" />
     <Compile Include="Assets\script\gestion\Checkpoint.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\script\gestion\Transitions\cryptecatacombes.cs" />
     <Compile Include="Assets\script\gestion\TriggerSonCorbeaux.cs" />
     <Compile Include="Assets\script\interraction\ActivateTrigger.cs" />
+    <Compile Include="Assets\script\interraction\Examine.cs" />
     <Compile Include="Assets\script\interraction\Grille.cs" />
     <Compile Include="Assets\script\interraction\Interact.cs" />
     <Compile Include="Assets\script\interraction\Lever.cs" />
@@ -119,31 +121,31 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/EArt/Candle/Projet/CandleStory/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/LE PROJET DE FIN D'ANNE QUI MARCHE/CandleStory/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/EArt/Candle/Projet/CandleStory/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/LE PROJET DE FIN D'ANNE QUI MARCHE/CandleStory/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/EArt/Candle/Projet/CandleStory/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/LE PROJET DE FIN D'ANNE QUI MARCHE/CandleStory/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/EArt/Candle/Projet/CandleStory/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/LE PROJET DE FIN D'ANNE QUI MARCHE/CandleStory/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/EArt/Candle/Projet/CandleStory/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/LE PROJET DE FIN D'ANNE QUI MARCHE/CandleStory/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/EArt/Candle/Projet/CandleStory/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/LE PROJET DE FIN D'ANNE QUI MARCHE/CandleStory/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/EArt/Candle/Projet/CandleStory/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/LE PROJET DE FIN D'ANNE QUI MARCHE/CandleStory/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/EArt/Candle/Projet/CandleStory/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/LE PROJET DE FIN D'ANNE QUI MARCHE/CandleStory/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/EArt/Candle/Projet/CandleStory/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/LE PROJET DE FIN D'ANNE QUI MARCHE/CandleStory/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
