@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Lever : MonoBehaviour
 {
     public Transform player;
     public Transform playerCam;
 
+    public Animator animator;
 
     private bool hasPlayer = false;
+
+    public static bool activatedLever = false;
 
     public GameObject grid;
 
@@ -33,7 +37,8 @@ public class Lever : MonoBehaviour
 
         if (hasPlayer && Input.GetKey(KeyCode.E))
         {
-            grid.SetActive(false);
+            activatedLever = true;
+            animator.SetBool("activatedLever", true);
         }
     }
 }
