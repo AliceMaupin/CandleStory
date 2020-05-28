@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Catacombes.unity
-=======
-- path: Assets/Scenes/crypte.unity
->>>>>>> eb9ff2ff56ea2c63474015232bc9f70de39f351b
   isLoaded: 1
   isActive: 1
   isSubScene: 0
