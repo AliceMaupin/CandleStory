@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 76
+  controlID: 30
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -93,8 +93,8 @@ MonoBehaviour:
     y: 0
     width: 379
     height: 573
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 77
+  controlID: 31
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 78
+  controlID: 32
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,20 +337,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/asset_Yann/Doors/Door6
+    - Assets/Catacombes/Environnement/asset
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/asset_Yann/Doors/Door6
+  - Assets/Catacombes/Environnement/asset
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "D:\\Projet fin d'ann\xE9e\\horror game b1\\CandleStory"
+  m_LastProjectPath: D:\Unity\CandleStory-Project\CandleStory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de440000
-    m_LastClickedID: 17630
-    m_ExpandedIDs: 00000000f82e0000802f0000343100000c320000103300007e330000f0360000343800005238000014390000fe3c0000203d0000903d00009c3f00009e3f0000c63f0000fc3f0000fa4300002e4400005e4600005e47000082490000444a0000284b000000ca9a3b
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 1a6d0000
+    m_LastClickedID: 27930
+    m_ExpandedIDs: 00000000b451000056580000ba5800001e5a0000c85a0000985b0000f25b0000965e00009c5f0000ae5f000046600000626000008a630000ba650000bc650000da6500000c6600003c6900006c690000206b0000e66b00001a6d00004a6e0000166f0000fa7b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -378,7 +378,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f82e0000802f0000343100000c320000103300007e330000f0360000343800005238000014390000fe3c0000903d00009c3f00009e3f0000c63f0000fc3f0000fa4300002e4400005e4600005e470000444a0000284b0000
+    m_ExpandedIDs: 00000000b451000056580000ba5800001e5a0000c85a0000985b0000f25b0000965e00009c5f0000ae5f0000466000008a630000ba650000bc650000da6500000c6600003c6900006c690000206b0000e66b00004a6e0000166f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -433,7 +433,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 179
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -500,10 +500,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 7}
-      m_SelectedIDs: f855ffff
+      scrollPos: {x: 0, y: 1799}
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 76fbffff
+      m_ExpandedIDs: 3eb7ffffba6f00005e73000062730000227400005a750000be760000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -563,9 +563,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -439.8451, y: -9.574554, z: 251.07986}
+    m_Target: {x: -432.59482, y: -4.706045, z: 222.08656}
     speed: 2
-    m_Value: {x: -439.8451, y: -9.574554, z: 251.07986}
+    m_Value: {x: -432.59482, y: -4.706045, z: 222.08656}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -594,13 +594,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.22181709, y: -0.33762595, z: 0.08220127, w: 0.91113347}
+    m_Target: {x: -0.1643895, y: -0.82892305, z: 0.3166753, w: -0.43099678}
     speed: 2
-    m_Value: {x: 0.22068156, y: -0.3349937, z: 0.08102826, w: 0.91242176}
+    m_Value: {x: -0.1648496, y: -0.8282016, z: 0.31640008, w: -0.43220103}
   m_Size:
-    m_Target: 71.63207
+    m_Target: 60.62834
     speed: 2
-    m_Value: 68.54744
+    m_Value: 58.01755
   m_Ortho:
     m_Target: 0
     speed: 2
