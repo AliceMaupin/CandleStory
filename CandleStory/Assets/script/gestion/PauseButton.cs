@@ -29,6 +29,12 @@ public class PauseButton : MonoBehaviour
         optionsUI.SetActive(true);
     }
 
+    public void BackToPause()
+    {
+        pauseMenuUI.SetActive(true);
+        optionsUI.SetActive(false);
+    }
+
     public void Quit()
     {
         Application.Quit();
