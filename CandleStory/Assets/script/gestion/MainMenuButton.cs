@@ -19,4 +19,9 @@ public class MainMenuButton : MonoBehaviour
     {
         SceneManager.LoadScene("SplashScreen");
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
