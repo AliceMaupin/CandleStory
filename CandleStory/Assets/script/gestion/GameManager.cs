@@ -17,6 +17,17 @@ public class GameManager : MonoBehaviour
 
     public GameObject pauseMenuUI;
 
+    public static bool firstLetterComa = false;
+    public static bool secondLetterComa = false;
+    public static bool thirdLetterComa = false;
+    public static bool coma = false;
+
+    public static bool firstLetterMarc = false;
+    public static bool secondLetterMarc = false;
+    public static bool thirdLetterMarc = false;
+    public static bool marc = false;
+
+
     private void Awake()
     {
         if (s_Singleton != null)
