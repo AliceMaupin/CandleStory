@@ -15,6 +15,12 @@ public class MainMenuButton : MonoBehaviour
         optionsUI.SetActive(true);
     }
 
+    public void Validate()
+    {
+        mainMenuUI.SetActive(true);
+        optionsUI.SetActive(false);
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene("SplashScreen");
