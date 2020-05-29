@@ -4,10 +4,46 @@ using UnityEngine;
 
 public class PickupOnWalk : MonoBehaviour
 {
+    
 
-    private void OnTriggerEnter(Collider other)
+    public static bool HaveKey;
+    // Start is called before the first frame update
+    void Start()
     {
-        GameManager.hasKeyA = true;
-        Destroy(gameObject);
+
     }
+
+
+
+
+    
+    void Update()
+    {
+
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Player" && Input.GetKeyDown(KeyCode.E))
+        {
+
+
+
+
+
+            HaveKey = true;
+            Destroy(gameObject);
+        }
+    }
+
+
+
+    private void OnDestroy()
+    {
+        CheckListPerso.clés1 = true;
+
+        Debug.Log(CheckListPerso.clés1);
+       
+    }
+
+
 }
