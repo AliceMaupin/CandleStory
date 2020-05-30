@@ -10,6 +10,9 @@ public class FPSInputController : MonoBehaviour
 {
     private CharacterMotor motor;
 
+    public GameObject flashLight;
+    public bool flashLightOn = false;
+
     void Awake()
     {
         motor = GetComponent<CharacterMotor>();
@@ -42,6 +45,20 @@ public class FPSInputController : MonoBehaviour
 
             // Multiply the normalized direction vector by the modified length
             directionVector *= directionLength;
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            if(flashLightOn == false)
+            {
+                flashLight.SetActive(true);
+                flashLightOn = true;
+            }
+            else
+            {
+                flashLight.SetActive(false);
+                flashLightOn = false;
+            }
         }
 
         // Apply the direction to the CharacterMotor
