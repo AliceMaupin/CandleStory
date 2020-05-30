@@ -92,6 +92,7 @@
     <Compile Include="Assets\script\interraction\PickUpCles\PickupOnWalk3.cs" />
     <Compile Include="Assets\script\interraction\PickUpCles\PickupOnWalk4.cs" />
     <Compile Include="Assets\script\interraction\PickUpCles\PickupOnWalk5.cs" />
+    <Compile Include="Assets\script\interraction\PickUpCles\PickupOnWalk6.cs" />
     <Compile Include="Assets\script\interraction\rotate_objet.cs" />
     <Compile Include="Assets\script\interraction\teleport.cs" />
     <Compile Include="Assets\script\interraction\Turn.cs" />
@@ -107,6 +108,7 @@
     <Compile Include="Assets\script\porte\Door3.cs" />
     <Compile Include="Assets\script\porte\Door4.cs" />
     <Compile Include="Assets\script\porte\Door5.cs" />
+    <Compile Include="Assets\script\porte\Door6.cs" />
     <Compile Include="Assets\script\VoicelineActivator.cs" />
     <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />

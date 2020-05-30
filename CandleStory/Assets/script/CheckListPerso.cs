@@ -15,6 +15,8 @@ public class CheckListPerso : MonoBehaviour
 
     public static bool clés5;
 
+    public static bool clés6;
+
 
 
 
