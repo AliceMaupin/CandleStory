@@ -6553,7 +6553,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 427358416}
     - target: {fileID: 5395540831631573075, guid: a567be835b340f24d9d41ed7864bda4c,
         type: 3}
       propertyPath: m_Speed
@@ -19793,7 +19793,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 427358416}
     - target: {fileID: 5395540831631573075, guid: a567be835b340f24d9d41ed7864bda4c,
         type: 3}
       propertyPath: m_Speed
@@ -24178,6 +24178,11 @@ PrefabInstance:
       propertyPath: Interieur
       value: 
       objectReference: {fileID: 8300000, guid: fe5cd11ae82caef4882da8882a6e0bde, type: 3}
+    - target: {fileID: 4674037172788629706, guid: b69cf9ce2dd0e9c49b29f8aea09f89f1,
+        type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 381812692}
     - target: {fileID: 4674037172788629707, guid: b69cf9ce2dd0e9c49b29f8aea09f89f1,
         type: 3}
       propertyPath: jumping.maxHeight
@@ -33111,6 +33116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 122918a4506c7284f832e4bbb7a516f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverScreen: {fileID: 381812692}
 --- !u!114 &1896537020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38392,7 +38398,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 427358416}
     - target: {fileID: 5395540831631573075, guid: a567be835b340f24d9d41ed7864bda4c,
         type: 3}
       propertyPath: m_Speed
