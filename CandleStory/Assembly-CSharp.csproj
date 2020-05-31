@@ -86,6 +86,7 @@
     <Compile Include="Assets\script\interraction\Grille.cs" />
     <Compile Include="Assets\script\interraction\Interact.cs" />
     <Compile Include="Assets\script\interraction\Lever.cs" />
+    <Compile Include="Assets\script\interraction\Lever2.cs" />
     <Compile Include="Assets\script\interraction\PickableObject.cs" />
     <Compile Include="Assets\script\interraction\PickUpCles\PickupOnWalk.cs" />
     <Compile Include="Assets\script\interraction\PickUpCles\PickupOnWalk2.cs" />
