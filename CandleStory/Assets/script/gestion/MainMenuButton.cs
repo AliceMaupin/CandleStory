@@ -9,6 +9,8 @@ public class MainMenuButton : MonoBehaviour
     public GameObject mainMenuUI;
 
     public GameObject optionsUI;
+
+    public GameObject loadingScreen;
     public void Options()
     {
         mainMenuUI.SetActive(false);
@@ -23,7 +25,8 @@ public class MainMenuButton : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("SplashScreen");
+        loadingScreen.SetActive(true);
+        SceneManager.LoadScene("Intro");   
     }
 
     public void QuitGame()
