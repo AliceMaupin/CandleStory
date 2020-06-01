@@ -71,6 +71,7 @@
     <Compile Include="Assets\script\gestion\ButtonManagement.cs" />
     <Compile Include="Assets\script\gestion\Checkpoint.cs" />
     <Compile Include="Assets\script\gestion\CreditsButton.cs" />
+    <Compile Include="Assets\script\gestion\CurseurCredits.cs" />
     <Compile Include="Assets\script\gestion\Door.cs" />
     <Compile Include="Assets\script\gestion\GameManager.cs" />
     <Compile Include="Assets\script\gestion\GameOverButton.cs" />
