@@ -7,10 +7,16 @@ public class Door6 : MonoBehaviour
 
     public Animator anim;
 
+    public GameObject UI;
+
+    public bool porte = false;
 
 
     void Start()
     {
+
+        UI.SetActive(false);
+        porte = false;
         anim = GetComponent<Animator>();
     }
 
@@ -25,7 +31,8 @@ public class Door6 : MonoBehaviour
     {
         if (CheckListPerso.clés6 == true && Input.GetKeyDown(KeyCode.E) && other.tag == "Player")
         {
-
+            UI.SetActive(false);
+            porte = true;
             anim.SetBool("Keyn1", true);
 
 
@@ -33,5 +40,19 @@ public class Door6 : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (porte == false)
+        {
+            UI.SetActive(true);
+        }
+
+    }
+
+
+    private void OnTriggerExit(Collider other)
+    {
+        UI.SetActive(false);
+    }
 
 }

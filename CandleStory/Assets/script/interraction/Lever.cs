@@ -19,6 +19,10 @@ public class Lever : MonoBehaviour
     protected Vector3 postLastFame;
     public Camera UIcam;
 
+    public GameObject UI;
+
+    public bool check = false;
+
     // Update is called once per frame
     void Update()
     {
@@ -28,15 +32,25 @@ public class Lever : MonoBehaviour
         // si - ou = 1.9 unitÃ©s de distance = on peut interagir
         if (dist <= 2f)
         {
+            if ( check == false)
+            {
+                UI.SetActive(true);
+            }
+            
             hasPlayer = true;
+            
         }
         else
         {
+            UI.SetActive(false);
             hasPlayer = false;
         }
 
         if (hasPlayer && Input.GetKey(KeyCode.E))
         {
+            check = true;
+
+            UI.SetActive(false);
             activatedLever = true;
             animator.SetBool("activatedLever", true);
         }
