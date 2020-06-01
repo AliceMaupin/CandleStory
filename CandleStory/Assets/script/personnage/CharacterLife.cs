@@ -24,6 +24,8 @@ public class CharacterLife : MonoBehaviour
         if (isAlive == false)
         {
             gameObject.SetActive(false);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             gameOver.SetActive(true);
         }
     }
