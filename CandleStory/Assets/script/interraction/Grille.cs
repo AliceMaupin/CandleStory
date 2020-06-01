@@ -12,5 +12,17 @@ public class Grille : MonoBehaviour
         {
             animator.SetBool("activatedLever", true);
         }
+
+        if(cimetierecrypte.endLevel == true)
+        {
+            Lever.activatedLever = false;
+            cimetierecrypte.endLevel = false;
+        }
+
+        if(cryptecatacombes.endLevel == true)
+        {
+            Lever.activatedLever = false;
+            cryptecatacombes.endLevel = false;
+        }
     }
 }
