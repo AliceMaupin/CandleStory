@@ -11,6 +11,8 @@ public class Door1 : MonoBehaviour
 
     public bool porte = false;
 
+    
+
 
     void Start()
     {
@@ -18,6 +20,8 @@ public class Door1 : MonoBehaviour
         UI.SetActive(false);
         porte = false;
         anim = GetComponent<Animator>();
+
+        
     }
 
 
@@ -31,11 +35,12 @@ public class Door1 : MonoBehaviour
     {
         if (CheckListPerso.clés1 == true && Input.GetKeyDown(KeyCode.E) && other.tag == "Player")
         {
+            
             UI.SetActive(false);
             porte = true;
             anim.SetBool("Keyn1", true);
 
-
+            
         }
 
     }
@@ -53,6 +58,8 @@ public class Door1 : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         UI.SetActive(false);
+
+        
     }
 
 }
